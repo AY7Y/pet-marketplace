@@ -1,0 +1,96 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Trade Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Welcome to Pet Marketplace</h1>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#plans">Plans & Pricing</a>
+      <a href="#accessories">Accessories & Food</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h2>Buy, Sell, and Trade Pets with Ease</h2>
+    <p>Find the perfect pet or trade yours today. Our platform offers secure transactions and delivery.</p>
+    <a href="#shop" class="btn">Go to Shop</a>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop">
+    <h2>Buy, Sell & Trade Pets</h2>
+    <p>Browse through the pets available for sale, trade, or upload a listing to sell your own.</p>
+    <div class="shop-items">
+      <!-- Each pet card -->
+      <div class="pet-card">
+        <img src="pet1.jpg" alt="Pet 1">
+        <h3>Golden Retriever</h3>
+        <p>Age: 2 years</p>
+        <p>Price: $500</p>
+        <button class="btn">Buy Now</button>
+        <button class="btn">Trade</button>
+      </div>
+      <!-- Add more pet cards -->
+    </div>
+  </section>
+
+  <!-- Plans & Pricing Section -->
+  <section id="plans">
+    <h2>Best Plans & Pricing</h2>
+    <p>Choose the best plan that suits your needs for buying or selling pets.</p>
+    <div class="plans">
+      <div class="plan">
+        <h3>Basic Plan</h3>
+        <p>$10/month</p>
+        <button class="btn">Choose Plan</button>
+      </div>
+      <div class="plan">
+        <h3>Premium Plan</h3>
+        <p>$30/month</p>
+        <button class="btn">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accessories Section -->
+  <section id="accessories">
+    <h2>Pet Accessories & Food</h2>
+    <p>Find everything you need for your pet: food, toys, and more!</p>
+    <div class="accessories-items">
+      <!-- Each accessory card -->
+      <div class="accessory-card">
+        <img src="accessory1.jpg" alt="Accessory 1">
+        <h3>Dog Collar</h3>
+        <p>Price: $15</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <!-- Add more accessory cards -->
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart">
+    <h2>Your Cart</h2>
+    <p>Based on your pet selection, we recommend these accessories and food:</p>
+    <!-- Cart items will be dynamically generated -->
+    <div class="cart-items"></div>
+    <button class="btn">Checkout</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Pet Trade Platform. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
